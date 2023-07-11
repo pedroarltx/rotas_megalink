@@ -91,20 +91,21 @@ def organizar_rota_interface():
 
 # Cria a janela principal
 janela = tk.Tk()
-janela.iconphoto(False, tk.PhotoImage(file='brasil.png'))
+janela.iconphoto(False, tk.PhotoImage(file='C:\Users\v3nus\Documents\PYPEDR\rotamega\imagens\brasil.png')
 janela.title("ROTAS MEGALINK")
-janela.geometry('415x580')
+janela.geometry('415x555')
 janela.config(bg='#04003b')
 janela.resizable(width=0, height=0)
 
 #Imagens
-add_icon = tk.PhotoImage(file='button_adicionar.png')
-org_icon = tk.PhotoImage(file='button_organizar.png')
-in_icon = tk.PhotoImage(file='inicio.png')
-ende_icon = tk.PhotoImage(file='enderecos.png')
-rota_icon = tk.PhotoImage(file='rota.png')
-fundo_img = tk.PhotoImage(file='fundo.png')
-limp_img = tk.PhotoImage(file='button_limpar.png')
+add_icon = tk.PhotoImage(file='rotamega/imagens/button_adicionar.png')
+org_icon = tk.PhotoImage(file='rotamega/imagens/button_organizar.png')
+in_icon = tk.PhotoImage(file='rotamega/imagens/inicio.png')
+ende_icon = tk.PhotoImage(file='rotamega/imagens/enderecos.png')
+rota_icon = tk.PhotoImage(file='rotamega/imagens/rota.png')
+fundo_img = tk.PhotoImage(file='rotamega/imagens/fundo.png')
+limp_img = tk.PhotoImage(file='rotamega/imagens/button_limpar.png')
+
 
 
 #digite o ponto de inicio:
